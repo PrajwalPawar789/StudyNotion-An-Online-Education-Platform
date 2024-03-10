@@ -18,19 +18,17 @@ const InstructorSection = () => {
           <div className="lg:w-[50%] flex gap-10 flex-col">
             <h1 className="lg:w-[50%] text-4xl font-semibold ">
               Become an
-              <HighlightText text={"instructor"} />
+              <HighlightText text={"Partner"} />
             </h1>
 
             <p className="font-medium text-[16px] text-justify w-[90%] text-richblack-300">
-              Instructors from around the world teach millions of students on
-              StudyNotion. We provide the tools and skills to teach what you
-              love.
+            Experts across industries empower countless businesses with valuable insights through our B2B data platform. Equip yourself with the resources and expertise to excel in your field.
             </p>
 
             <div className="w-fit">
               <CTAButton active={true} linkto={"/signup"}>
                 <div className="flex items-center gap-3">
-                  Start Teaching Today
+                Initiate Data Empowerment Now
                   <FaArrowRight />
                 </div>
               </CTAButton>

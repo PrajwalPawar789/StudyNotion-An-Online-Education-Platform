@@ -11,6 +11,7 @@ import UpdatePassword from "./pages/UpdatePassword";
 import VerifyEmail from "./pages/VerifyEmail";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Pricing from "./pages/Pricing";
 import MyProfile from "./components/core/Dashboard/MyProfile";
 import Dashboard from "./pages/Dashboard";
 import PrivateRoute from "./components/core/Auth/PrivateRoute";
@@ -38,7 +39,7 @@ function App() {
 
 
   return (
-   <div className="w-screen min-h-screen bg-richblack-900 flex flex-col font-inter">
+   <div className="w-screen min-h-screen bg-blue-900 flex flex-col font-inter">
     <Navbar/>
     <Routes>
       <Route path="/" element={<Home/>} />
@@ -50,6 +51,14 @@ function App() {
           element={
             <OpenRoute>
               <Signup />
+            </OpenRoute>
+          }
+        />
+        <Route
+          path="Pricing"
+          element={
+            <OpenRoute>
+              <Pricing/>
             </OpenRoute>
           }
         />

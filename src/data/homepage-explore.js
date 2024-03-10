@@ -1,24 +1,24 @@
 export const HomePageExplore = [
     {
-        tag: 'Free',
+        tag: 'Solutions',
         courses : [
             {
-                heading : "Learn HTML",
-                description : "This course covers the basic concepts of HTML including creating and structuring web pages, adding text, links, images, and more.",
-                level : 'Beginner',
+                heading : "Unrivaled data quality",
+                description : "Enhance your sales game with globally compliant and accurate data.",
+                level : 'Data solutions',
                 lessionNumber : 6
             },
             {
-                heading : "Learn CSS",
-                description : "This course explores advanced topics in HTML5 and CSS3, including animations, transitions, and layout techniques",
-                level : 'Beginner',
-                lessionNumber : 6
+                heading : "Prospect stronger",
+                description : "Fill your pipeline with qualified leads based on buyer intent data.",
+                level : 'Empower Your Pipeline',
+                lessionNumber : 10
             },
             {
-                heading : "Responsive Web design",
-                description : "This course teaches responsive web design techniques, allowing web pages to adapt to different devices and screen sizes",
-                level : 'Beginner',
-                lessionNumber : 6
+                heading : "Ramp reps faster",
+                description : "Onboard your entire team in 10 minutes. Prospect at scale right away.",
+                level : 'Accelerated Onboarding',
+                lessionNumber : 3
             },
         ]
     },

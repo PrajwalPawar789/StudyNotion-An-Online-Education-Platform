@@ -4,7 +4,7 @@ import { BsChevronDown } from "react-icons/bs"
 import { useSelector } from "react-redux"
 import { Link, matchPath, useLocation } from "react-router-dom"
 
-import logo from "../../assets/Logo/Logo-Full-Light.png"
+import logo from "../../assets/Logo/weblogomanify-new.png"
 import { NavbarLinks } from "../../data/navbar-links"
 import { apiConnector } from "../../services/apiconnector"
 import { categories } from "../../services/apis"
@@ -47,6 +47,7 @@ function Navbar() {
     >
       <div className="flex w-11/12 max-w-maxContent items-center justify-between">
         {/* Logo */}
+        
         <Link to="/">
           <img src={logo} alt="Logo" width={160} height={32} loading="lazy" />
         </Link>
@@ -64,7 +65,7 @@ function Navbar() {
                           : "text-richblack-25"
                       }`}
                     >
-                      <p>{link.title}</p>
+                      <p>Why Manify</p>
                       <BsChevronDown />
                       <div className="invisible absolute left-[50%] top-[50%] z-[1000] flex w-[200px] translate-x-[-50%] translate-y-[3em] flex-col rounded-lg bg-richblack-5 p-4 text-richblack-900 opacity-0 transition-all duration-150 group-hover:visible group-hover:translate-y-[1.65em] group-hover:opacity-100 lg:w-[300px]">
                         <div className="absolute left-[50%] top-0 -z-10 h-6 w-6 translate-x-[80%] translate-y-[-40%] rotate-45 select-none rounded bg-richblack-5"></div>
@@ -90,7 +91,8 @@ function Navbar() {
                               ))}
                           </>
                         ) : (
-                          <p className="text-center">No Courses Found</p>
+                          <p className="text-center">How It Works</p>
+                          
                         )}
                       </div>
                     </div>
@@ -133,8 +135,8 @@ function Navbar() {
           )}
           {token === null && (
             <Link to="/signup">
-              <button className="rounded-[8px] border border-richblack-700 bg-richblack-800 px-[12px] py-[8px] text-richblack-100">
-                Sign up
+              <button className="rounded-[8px] border border-richblack-700 bg-yellow-25 px-[12px] py-[8px] text-black font-bold">
+                Sign up for free
               </button>
             </Link>
           )}

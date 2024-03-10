@@ -8,23 +8,23 @@ import Logo4 from "../../../assets/TimeLineLogo/Logo4.svg";
 const TimeLine = [
     {
       Logo: Logo1,
-      Heading: "Leadership",
-      Description: "Fully committed to the success company",
+      Heading: "Strategic Leadership",
+      Description: "Dedicated to driving your company's triumph.",
     },
     {
       Logo: Logo2,
-      Heading: "Responsibility",
-      Description: "Students will always be our top priority",
+      Heading: "Accountability",
+      Description: "Our clients' needs are paramount.",
     },
     {
       Logo: Logo3,
-      Heading: "Flexibility",
-      Description: "The ability to switch is an important skills",
+      Heading: "Adaptability",
+      Description: "Swift adaptation is a core competency.",
     },
     {
       Logo: Logo4,
-      Heading: "Solve the problem",
-      Description: "Code your way to a solution",
+      Heading: "Decades of Experience",
+      Description: "Access unparalleled insights gained over years of industry mastery.",
     },
   ];
 
@@ -59,7 +59,7 @@ const TimelineSection = () => {
           <div className="absolute lg:left-[50%] lg:bottom-0 lg:translate-x-[-50%] lg:translate-y-[50%] bg-caribbeangreen-700 flex lg:flex-row flex-col text-white uppercase py-5 gap-4 lg:gap-0 lg:py-10 ">
             {/* Section 1 */}
             <div className="flex gap-5 items-center lg:border-r border-caribbeangreen-300 px-7 lg:px-14">
-              <h1 className="text-3xl font-bold w-[75px]">10</h1>
+              <h1 className="text-3xl font-bold w-[75px]">20+</h1>
               <h1 className="text-caribbeangreen-300 text-sm w-[75px]">
                 Years experiences
               </h1>
@@ -67,9 +67,9 @@ const TimelineSection = () => {
 
             {/* Section 2 */}
             <div className="flex gap-5 items-center lg:px-14 px-7">
-              <h1 className="text-3xl font-bold w-[75px]">250</h1>
+              <h1 className="text-3xl font-bold w-[75px]">60+</h1>
               <h1 className="text-caribbeangreen-300 text-sm w-[75px]">
-                types of courses
+                Clients
               </h1>
             </div>
             <div></div>
